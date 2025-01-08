@@ -1,0 +1,26 @@
+{
+    "name": "iam/view",
+    "description": "testing saja",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iam\\View\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Iam\\View\\IamViewServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Harithya Wisesa",
+            "email": "harithya77@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
