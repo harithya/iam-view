@@ -1,5 +1,6 @@
 <?php
 
+use Iam\View\Service\HomeService;
 use Illuminate\Support\Facades\Route;
 
 Route::get('iam', function () {
@@ -9,4 +10,8 @@ Route::get('iam', function () {
 
 Route::get('dev', function () {
     return "dev";
+});
+
+Route::get('bis', function () {
+    return HomeService::all();
 });

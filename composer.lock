@@ -1688,7 +1688,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "spatie/array-to-xml": 20
+        "spatie/array-to-xml": 20,
+        "barryvdh/laravel-dompdf": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
