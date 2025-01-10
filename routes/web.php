@@ -1,5 +1,6 @@
 <?php
 
+use Fixwad\Testing\Service\BlogService;
 use Iam\View\Service\HomeService;
 use Illuminate\Support\Facades\Route;
 
@@ -13,5 +14,5 @@ Route::get('dev', function () {
 });
 
 Route::get('bis', function () {
-    return HomeService::all();
+    return BlogService::all();
 });
